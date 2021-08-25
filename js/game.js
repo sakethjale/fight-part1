@@ -64,9 +64,9 @@ if(allPlayers!==undefined)
             hero2.y=allPlayers["player2"].y;
             hero1.x=player.xpos;
             hero1.y=player.ypos; 
-            // textSize(20);
-            // fill("red")
-            // text(player.name,hero1.x,hero1.y+60);    
+            textSize(20);
+            fill("red")
+            text(player.name,hero1.x,hero1.y+60);    
            
             if(keyCode===UP_ARROW){
               //hero1.y=hero1.y-4
@@ -132,9 +132,9 @@ if(allPlayers!==undefined)
         
             hero1.x=allPlayers["player1"].x;
             hero1.y=allPlayers["player1"].y;
-            // textSize(20);
-            // fill("red")
-            // text(player.name,hero2.x,hero2.y+60);    
+            textSize(20);
+            fill("red")
+            text(player.name,hero2.x,hero2.y+60);    
            
             if(keyCode===UP_ARROW){
               //hero2.y=hero2.y-4
@@ -195,8 +195,8 @@ if(allPlayers!==undefined)
        }
     showHealth(){
       textSize(20);
-      // fill("blue");
-      // text(player.name,width/2-200,50)
+      fill("blue");
+      text(player.name,width/2-200,50)
       fill("white")
       rect(width/2-100,30,200,20)
       fill("yellow")
